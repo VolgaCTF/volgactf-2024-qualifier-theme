@@ -10,7 +10,7 @@ app.use('/assets', assetsRouter)
 app.get('/metadata', function (req, res) {
   res.json({
     name: '2024-qualifier-theme',
-    version: '0.1.0'
+    version: '0.1.1'
   })
 })
 
